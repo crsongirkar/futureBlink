@@ -1,7 +1,7 @@
 {
   "name": "task",
   "version": "1.0.0",
-  "main": "backend/server.js",
+  "main": "server/server.js",
   "type": "module",
   "scripts": {
     "dev": "nodemon server/server.js",
