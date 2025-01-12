@@ -1,12 +1,12 @@
 {
   "name": "task",
   "version": "1.0.0",
-  "main": "backend/server.js",
+  "main": "server/server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon Backend/server.js",
-  "start": "node Backend/server.js",
-  "build": "npm install && (cd frontend && npm install && npm run build)"
+    "dev": "nodemon server/server.js",
+  "start": "node server/server.js",
+  "build": "npm install && (cd client && npm install && npm run build)"
   },
   "keywords": [],
   "author": "",
